@@ -300,34 +300,9 @@ A5：不同国家和地区政策不同，用户应了解当地法律法规，合
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekobox 是否支持多配置文件切换？</h5></div>
-    <div class="panel-body">
-        支持。Nekobox 允许用户创建多个配置文件并快速切换，适合在不同网络环境下使用不同规则。例如家用网络与移动数据可使用独立的配置方案。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 支持节点分类管理吗？</h5></div>
-    <div class="panel-body">
-        支持。用户可将节点按地区、用途或延迟分类，结合策略组和规则进行分流。这样可以快速选择最佳节点，提高访问效率并便于维护大量节点。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何配置 Sing-box 使用 DoH 加密 DNS？</h5></div>
-    <div class="panel-body">
-        在 dns 模块中添加类型为 doh 的上游，如 `https://1.1.1.1/dns-query`，并指定 bootstrap 地址。启用加密 DNS 可防止 DNS 泄露并加快国际解析速度，提高整体隐私保护。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Matsuri 节点延迟排序如何优化流量？</h5></div>
-    <div class="panel-body">
-        Matsuri 会定期测速节点延迟，并结合策略组自动选择低延迟节点。无需手动切换，确保网页、视频和游戏流量通过最优节点，提高访问速度和网络稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>WinXray 的多策略组设置能提高访问效率吗？</h5></div>
     <div class="panel-body">
         多策略组可以将节点按用途、延迟或地域分类，结合规则文件自动分流不同流量。这样可以确保游戏、视频或网页流量走最优节点，提高整体访问效率和稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 可以结合规则实现广告屏蔽吗？</h5></div>
-    <div class="panel-body">
-        可以。Surfboard 支持通过规则文件匹配广告域名或 URL，将其阻断或重定向。结合策略组定期更新规则，可以实现自动广告屏蔽，提升网页浏览体验并节省带宽。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Matsuri 节点延迟排序功能如何使用？</h5></div>
@@ -335,14 +310,39 @@ A5：不同国家和地区政策不同，用户应了解当地法律法规，合
         Matsuri 会自动测试节点延迟，并根据结果排序。用户可以选择延迟最低的节点使用，从而优化访问速度和稳定性，尤其适合游戏、视频和海外网站加速。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Matsuri 节点延迟排序如何优化流量？</h5></div>
+    <div class="panel-body">
+        Matsuri 会定期测速节点延迟，并结合策略组自动选择低延迟节点。无需手动切换，确保网页、视频和游戏流量通过最优节点，提高访问速度和网络稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Quantumult X 的分流规则如何设置？</h5></div>
     <div class="panel-body">
         Quantumult X 通过规则分组来控制流量走向。用户可自定义策略组，将特定网站流量指向不同节点。编辑规则文件时，可利用 GEOIP、DOMAIN-SUFFIX 等指令精确管理网络行为。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Nekobox 是否支持多配置文件切换？</h5></div>
+    <div class="panel-body">
+        支持。Nekobox 允许用户创建多个配置文件并快速切换，适合在不同网络环境下使用不同规则。例如家用网络与移动数据可使用独立的配置方案。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何配置 Sing-box 使用 DoH 加密 DNS？</h5></div>
+    <div class="panel-body">
+        在 dns 模块中添加类型为 doh 的上游，如 `https://1.1.1.1/dns-query`，并指定 bootstrap 地址。启用加密 DNS 可防止 DNS 泄露并加快国际解析速度，提高整体隐私保护。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mihomo 支持节点分类管理吗？</h5></div>
+    <div class="panel-body">
+        支持。用户可将节点按地区、用途或延迟分类，结合策略组和规则进行分流。这样可以快速选择最佳节点，提高访问效率并便于维护大量节点。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 的 Profile URL 是否可以同时添加多个？</h5></div>
     <div class="panel-body">
         可以。Clash 支持导入多个 Profile URL，用户可在“配置”面板切换不同订阅源。多个配置之间互不干扰，方便区分不同地区或用途的线路。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Surfboard 可以结合规则实现广告屏蔽吗？</h5></div>
+    <div class="panel-body">
+        可以。Surfboard 支持通过规则文件匹配广告域名或 URL，将其阻断或重定向。结合策略组定期更新规则，可以实现自动广告屏蔽，提升网页浏览体验并节省带宽。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Potatso Lite 是什么？</h5></div>
@@ -395,16 +395,16 @@ A5：不同国家和地区政策不同，用户应了解当地法律法规，合
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-7-21-free-node-subscribe-links.htm" title="Clash Party - 7月21日19.8M/S|免费Singbox节点/V2ray节点/Clash节点/Trojan节点/SSR节点/Shadowrocket节点订阅链接分享">Clash Party - 7月21日19.8M/S|免费Singbox节点/V2ray节点/Clash节点/Trojan节点/SSR节点/Shadowrocket节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-6-vpn-proxy.htm" title="Clash Party - 8月6日21.1M/S|免费Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点订阅链接分享">Clash Party - 8月6日21.1M/S|免费Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-24-node-share.htm" title="Clash Party - 7月24日18M/S|免费SSR节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点订阅链接分享">Clash Party - 7月24日18M/S|免费SSR节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-24-top-vpn-node.htm" title="Clash Party - 8月24日22.9M/S|免费Trojan节点/SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅链接分享">Clash Party - 8月24日22.9M/S|免费Trojan节点/SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-30-free-node-subscribe.htm" title="Clash Party - 8月30日20.6M/S|免费Clash节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点订阅链接分享">Clash Party - 8月30日20.6M/S|免费Clash节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-2-vpn-node.htm" title="Clash Party - 9月2日19.8M/S|免费Singbox节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点订阅链接分享">Clash Party - 9月2日19.8M/S|免费Singbox节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点订阅链接分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-8-16-free-vpn-node.htm" title="Clash Party - 8月16日23M/S|免费Singbox节点/Trojan节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点订阅链接分享">Clash Party - 8月16日23M/S|免费Singbox节点/Trojan节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-12-top-vpn-node.htm" title="Clash Party - 8月12日21.6M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点/Trojan节点订阅链接分享">Clash Party - 8月12日21.6M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点/Trojan节点订阅链接分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/mianfei-vpn-2026-8-7.htm" title="Clash Party - 8月7日22.6M/S|免费Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点订阅链接分享">Clash Party - 8月7日22.6M/S|免费Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/vpn-github-2026-8-27.htm" title="Clash Party - 8月27日22.3M/S|免费Clash节点/Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/V2ray节点订阅链接分享">Clash Party - 8月27日22.3M/S|免费Clash节点/Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/V2ray节点订阅链接分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/share-vpn-2026-8-13.htm" title="Clash Party - 8月13日21.4M/S|免费SSR节点/Trojan节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点订阅链接分享">Clash Party - 8月13日21.4M/S|免费SSR节点/Trojan节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-8-9.htm" title="Clash Party - 8月9日19.2M/S|免费Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点订阅链接分享">Clash Party - 8月9日19.2M/S|免费Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-vpn-2026-8-15.htm" title="Clash Party - 8月15日22.2M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Trojan节点订阅链接分享">Clash Party - 8月15日22.2M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Trojan节点订阅链接分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-8-20-vpn-free.htm" title="Clash Party - 8月20日22M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Trojan节点订阅链接分享">Clash Party - 8月20日22M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Trojan节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-8-23.htm" title="Clash Party - 8月23日18.2M/S|免费V2ray节点/SSR节点/Trojan节点/Clash节点/Shadowrocket节点/Singbox节点订阅链接分享">Clash Party - 8月23日18.2M/S|免费V2ray节点/SSR节点/Trojan节点/Clash节点/Shadowrocket节点/Singbox节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/mianfei-vpn-2026-8-31.htm" title="Clash Party - 8月31日19M/S|免费Singbox节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点订阅链接分享">Clash Party - 8月31日19M/S|免费Singbox节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点订阅链接分享</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -416,10 +416,10 @@ A5：不同国家和地区政策不同，用户应了解当地法律法规，合
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">25</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
+                <h4><span class="badge" style="float: right;">4</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2026-07/" title="2026-07 归档">2026-07</a></h4>
+                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
             </li>
                     </ul>
     </div>
